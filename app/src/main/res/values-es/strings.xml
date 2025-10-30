@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- HomeScreen -->
+    <string name="how_to_play_button">¿Cómo jugar?</string>
+    <string name="play_button">Jugar</string>
+    <string name="logo_content_description">Logo de NumberUp</string>
+
+    <!-- GameScreen -->
+    <string name="back_button_description">Volver</string>
+    <string name="next_tile_label">Siguiente:</string>
+    <string name="score_label">Puntos:</string>
+    <string name="next_tile_content_description">Siguiente ficha para colocar: %1$d</string>
+    <string name="game_over_title">Fin del juego</string>
+    <string name="game_over_text">La partida ha terminado. Puntuación final: %1$d</string>
+    <string name="return_to_home_button">Volver al inicio</string>
+    <string name="play_again_button">Jugar de nuevo</string>
+
+    <!-- HowToPlayScreen -->
+    <string name="how_to_play_title">¿Cómo jugar?</string>
+    <string name="how_to_play_point_1">El objetivo del juego es fusionar fichas con números idénticos para crear fichas de mayor valor y conseguir la mayor cantidad de puntos posible.</string>
+    <string name="how_to_play_point_2">En cada turno, se te ofrece un número. Haz clic en una columna para colocar este número allí. La ficha caerá hasta la primera casilla vacía disponible en esa columna.</string>
+    <string name="how_to_play_point_3">Cuando tres (o más) fichas del mismo valor están adyacentes (horizontal o verticalmente), se fusionan.</string>
+    <string name="how_to_play_point_4">La fusión transforma una de las fichas (normalmente la más baja y a la izquierda del grupo) en el siguiente valor (ej: tres \'1\' se fusionan en un \'2\'). Las otras fichas del grupo desaparecen.</string>
+    <string name="how_to_play_point_5">Después de una fusión, las fichas que estaban encima de las casillas vacías caen para llenar los huecos (gravedad). Esto puede desencadenar nuevas fusiones en cascada.</string>
+    <string name="how_to_play_point_6">Cuanto mayor sea el valor de las fichas que fusionas, y cuantas más fusiones a la vez, más puntos ganas.</string>
+    <string name="how_to_play_point_7">A medida que creas números más altos, estos también comenzarán a aparecer como los próximos números a colocar, pero con una probabilidad menor para los valores más altos.</string>
+    <string name="how_to_play_section_sixth_square">6ª Ficha (Movimiento Especial):</string>
+    <string name="how_to_play_point_8">Si una columna está llena (5 casillas ocupadas), puedes intentar colocar una 6ª ficha encima de esa columna.</string>
+    <string name="how_to_play_point_9">Si esta 6ª ficha permite una fusión inmediata con las fichas de la columna (o adyacentes), la fusión se produce y el juego continúa.</string>
+    <string name="how_to_play_point_10">¡Atención! Si al colocar esta 6ª ficha NO se produce NINGUNA fusión, el juego termina.</string>
+    <string name="how_to_play_section_end_game">Fin de la Partida:</string>
+    <string name="how_to_play_point_11">El juego termina si el tablero está completamente lleno y no son posibles más fusiones, o si colocas una 6ª ficha que no provoca una fusión.</string>
+    <string name="good_luck_message">¡Buena suerte y diviértete!</string>
+</resources>

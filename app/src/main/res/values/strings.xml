@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NumberUp!</string>
+
+    <!-- HomeScreen -->
+    <string name="how_to_play_button">How to Play?</string>
+    <string name="play_button">Play</string>
+    <string name="logo_content_description">NumberUp Logo</string>
+
+    <!-- GameScreen -->
+    <string name="back_button_description">Back</string>
+    <string name="next_tile_label">Next:</string>
+    <string name="score_label">Score:</string>
+    <string name="next_tile_content_description">Next tile to place: %1$d</string>
+    <string name="game_over_title">Game Over</string>
+    <string name="game_over_text">The game is over. Final score: %1$d</string>
+    <string name="return_to_home_button">Return to Home</string>
+    <string name="play_again_button">Play Again</string>
+
+    <!-- HowToPlayScreen -->
+    <string name="how_to_play_title">How to Play?</string>
+    <string name="how_to_play_point_1">The goal of the game is to merge identical numbered tiles to create tiles of higher value and score as many points as possible.</string>
+    <string name="how_to_play_point_2">On each turn, a number is offered to you. Click on a column to place this number there. The tile will fall to the first available empty square in that column.</string>
+    <string name="how_to_play_point_3">When three (or more) tiles of the same value are adjacent (horizontally or vertically), they merge.</string>
+    <string name="how_to_play_point_4">The merge transforms one of the tiles (usually the lowest and leftmost of the group) into the next value (e.g., three \'1\'s merge into one \'2\'). The other tiles in the group disappear.</string>
+    <string name="how_to_play_point_5">After a merge, the tiles above the emptied squares fall to fill the gaps (gravity). This can trigger new cascading merges.</string>
+    <string name="how_to_play_point_6">The higher the value of the tiles you merge, and the more you merge at the same time, the more points you earn.</string>
+    <string name="how_to_play_point_7">As you create higher numbers, these numbers will also start to appear as the next numbers to place, but with a lower probability for the highest values.</string>
+    <string name="how_to_play_section_sixth_square">6th Square (Special Move):</string>
+    <string name="how_to_play_point_8">If a column is full (5 squares occupied), you can try to place a 6th square above that column.</string>
+    <string name="how_to_play_point_9">If this 6th square allows for an immediate merge with the tiles in the column (or adjacent ones), the merge occurs and the game continues.</string>
+    <string name="how_to_play_point_10">Warning! If placing this 6th square does not trigger ANY merge, the game is over.</string>
+    <string name="how_to_play_section_end_game">End of Game:</string>
+    <string name="how_to_play_point_11">The game ends if the grid is completely full and no merges are possible, or if you place a 6th square that does not cause a merge.</string>
+    <string name="good_luck_message">Good luck and have fun!</string>
+</resources>

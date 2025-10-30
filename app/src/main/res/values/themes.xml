@@ -1,0 +1,5 @@
+<resources>
+    <!-- Le style de base hérite maintenant directement de DayNight sans modifications.
+         Compose gérera les couleurs de la fenêtre et de la barre de statut. -->
+    <style name="Theme.NumberUp" parent="Theme.Material3.DayNight.NoActionBar" />
+</resources>

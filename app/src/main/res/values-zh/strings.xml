@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- HomeScreen -->
+    <string name="how_to_play_button">游戏玩法</string>
+    <string name="play_button">开始游戏</string>
+    <string name="logo_content_description">NumberUp 标志</string>
+
+    <!-- GameScreen -->
+    <string name="back_button_description">返回</string>
+    <string name="next_tile_label">下一个:</string>
+    <string name="score_label">得分:</string>
+    <string name="next_tile_content_description">下一个要放置的方块: %1$d</string>
+    <string name="game_over_title">游戏结束</string>
+    <string name="game_over_text">游戏结束。最终得分: %1$d</string>
+    <string name="return_to_home_button">返回首页</string>
+    <string name="play_again_button">再玩一次</string>
+
+    <!-- HowToPlayScreen -->
+    <string name="how_to_play_title">游戏玩法</string>
+    <string name="how_to_play_point_1">游戏的目标是通过合并相同的数字方块，来创造更高数值的方块，并获得尽可能多的分数。</string>
+    <string name="how_to_play_point_2">每一轮，系统会提供一个数字。点击任意一列来放置该数字。方块会落到该列第一个可用的空格中。</string>
+    <string name="how_to_play_point_3">当三个（或更多）相同数值的方塊水平或垂直相邻时，它们会合并。</string>
+    <string name="how_to_play_point_4">合并会将其中一个方块（通常是组合中最下方、最左侧的那个）变成下一个数值（例如：三个\'1\'合并成一个\'2\'）。组合中的其他方块会消失。</string>
+    <string name="how_to_play_point_5">合并后，位于空格上方的方块会因重力下落以填补空缺。这可能会引发新的连锁合并。</string>
+    <string name="how_to_play_point_6">你合并的方块数值越高，以及一次合并的数量越多，你获得的分数就越多。</string>
+    <string name="how_to_play_point_7">随着你创造出更高的数字，这些数字也会开始作为下一个待放置的数字出现，但数值越高的数字出现的概率越低。</string>
+    <string name="how_to_play_section_sixth_square">第6个方块（特殊操作）：</string>
+    <string name="how_to_play_point_8">如果某一列已满（5个方块），你可以尝试在该列上方放置第6个方块。</string>
+    <string name="how_to_play_point_9">如果这个第6个方块能与该列（或相邻）的方块立即产生合并，合并就会发生，游戏继续。</string>
+    <string name="how_to_play_point_10">注意！如果放置这个第6个方块没有引发任何合并，游戏就会结束。</string>
+    <string name="how_to_play_section_end_game">游戏结束条件：</string>
+    <string name="how_to_play_point_11">如果整个棋盘被填满且无法再进行任何合并，或者你放置的第6个方块没有引起合并，游戏就会结束。</string>
+    <string name="good_luck_message">祝你好运，玩得开心！</string>
+</resources>

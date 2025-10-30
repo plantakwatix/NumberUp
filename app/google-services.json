@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "975946061149",
+    "project_id": "numberup-1679e",
+    "storage_bucket": "numberup-1679e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975946061149:android:91c4d057b4ff02ec4a44b4",
+        "android_client_info": {
+          "package_name": "com.plantakwatix.numberup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnV_ztyYVpyQ5HcQEGQArPOTqZ7k6U7N4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

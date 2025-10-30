@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- HomeScreen -->
+    <string name="how_to_play_button">Как играть?</string>
+    <string name="play_button">Играть</string>
+    <string name="logo_content_description">Логотип NumberUp</string>
+
+    <!-- GameScreen -->
+    <string name="back_button_description">Назад</string>
+    <string name="next_tile_label">Следующий:</string>
+    <string name="score_label">Счёт:</string>
+    <string name="next_tile_content_description">Следующая плитка для размещения: %1$d</string>
+    <string name="game_over_title">Игра окончена</string>
+    <string name="game_over_text">Игра окончена. Итоговый счёт: %1$d</string>
+    <string name="return_to_home_button">На главный экран</string>
+    <string name="play_again_button">Играть снова</string>
+
+    <!-- HowToPlayScreen -->
+    <string name="how_to_play_title">Как играть?</string>
+    <string name="how_to_play_point_1">Цель игры — объединять плитки с одинаковыми номерами, чтобы создавать плитки с более высоким значением и набирать как можно больше очков.</string>
+    <string name="how_to_play_point_2">На каждом ходу вам предлагается число. Нажмите на столбец, чтобы поместить туда это число. Плитка упадет на первое доступное пустое место в этом столбце.</string>
+    <string name="how_to_play_point_3">Когда три (или более) плитки одного и того же значения оказываются рядом (по горизонтали или вертикали), они объединяются.</string>
+    <string name="how_to_play_point_4">Слияние превращает одну из плиток (обычно самую нижнюю и левую в группе) в следующее значение (например, три \'1\' сливаются в одну \'2\'). Остальные плитки в группе исчезают.</string>
+    <string name="how_to_play_point_5">После слияния плитки над пустыми клетками падают, чтобы заполнить пробелы (гравитация). Это может вызвать новые каскадные слияния.</string>
+    <string name="how_to_play_point_6">Чем выше значение объединяемых вами плиток и чем больше вы объединяете за раз, тем больше очков вы зарабатываете.</string>
+    <string name="how_to_play_point_7">По мере создания более высоких чисел, эти числа также начнут появляться в качестве следующих для размещения, но с меньшей вероятностью для самых высоких значений.</string>
+    <string name="how_to_play_section_sixth_square">6-я Плитка (Особый ход):</string>
+    <string name="how_to_play_point_8">Если столбец полон (5 клеток занято), вы можете попытаться поместить 6-ю плитку над этим столбцом.</string>
+    <string name="how_to_play_point_9">Если эта 6-я плитка позволяет немедленное слияние с плитками в столбце (или соседними), слияние происходит, и игра продолжается.</string>
+    <string name="how_to_play_point_10">Внимание! Если размещение этой 6-й плитки НЕ вызывает НИКАКОГО слияния, игра окончена.</string>
+    <string name="how_to_play_section_end_game">Конец игры:</string>
+    <string name="how_to_play_point_11">Игра заканчивается, если поле полностью заполнено и слияния невозможны, или если вы размещаете 6-ю плитку, которая не вызывает слияния.</string>
+    <string name="good_luck_message">Удачи и приятной игры!</string>
+</resources>

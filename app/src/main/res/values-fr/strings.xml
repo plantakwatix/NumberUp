@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NumberUp!</string>
+
+    <!-- HomeScreen -->
+    <string name="how_to_play_button">Comment jouer ?</string>
+    <string name="play_button">Jouer</string>
+    <string name="logo_content_description">Logo de NumberUp</string>
+
+    <!-- GameScreen -->
+    <string name="back_button_description">Retour</string>
+    <string name="next_tile_label">Prochain :</string>
+    <string name="score_label">Score :</string>
+    <string name="next_tile_content_description">Prochaine tuile à placer : %1$d</string>
+    <string name="game_over_title">Game Over</string>
+    <string name="game_over_text">La partie est terminée. Score final : %1$d</string>
+    <string name="return_to_home_button">Retour à l\'accueil</string>
+    <string name="play_again_button">Rejouer</string>
+
+    <!-- HowToPlayScreen -->
+    <string name="how_to_play_title">Comment jouer ?</string>
+    <string name="how_to_play_point_1">Le but du jeu est de fusionner des tuiles numérotées identiques pour créer des tuiles de valeur plus élevée et marquer le plus de points possible.</string>
+    <string name="how_to_play_point_2">À chaque tour, un numéro vous est proposé. Cliquez sur une colonne pour y placer ce numéro. La tuile tombera jusqu\'à la première case vide disponible dans cette colonne.</string>
+    <string name="how_to_play_point_3">Lorsque trois tuiles (ou plus) de la même valeur sont adjacentes (horizontalement ou verticalement), elles fusionnent.</string>
+    <string name="how_to_play_point_4">La fusion transforme l\'une des tuiles (généralement la plus basse et la plus à gauche du groupe) en la valeur suivante (ex: trois \'1\' fusionnent en un \'2\'). Les autres tuiles du groupe disparaissent.</string>
+    <string name="how_to_play_point_5">Après une fusion, les tuiles situées au-dessus des cases vidées tombent pour combler les espaces (gravité). Cela peut déclencher de nouvelles fusions en cascade.</string>
+    <string name="how_to_play_point_6">Plus la valeur des tuiles que vous fusionnez est élevée, et plus vous en fusionnez en même temps, plus vous gagnez de points.</string>
+    <string name="how_to_play_point_7">Au fur et à mesure que vous créez des numéros plus élevés, ces numéros commenceront également à apparaître comme prochains numéros à placer, mais avec une probabilité plus faible pour les valeurs les plus hautes.</string>
+    <string name="how_to_play_section_sixth_square">6ème Carré (Coup Spécial) :</string>
+    <string name="how_to_play_point_8">Si une colonne est pleine (5 cases occupées), vous pouvez tenter de placer un 6ème carré au-dessus de cette colonne.</string>
+    <string name="how_to_play_point_9">Si ce 6ème carré permet de créer une fusion immédiate avec les tuiles de la colonne (ou adjacentes), la fusion s\'effectue et le jeu continue.</string>
+    <string name="how_to_play_point_10">Attention ! Si le placement de ce 6ème carré ne déclenche AUCUNE fusion, la partie est terminée (Game Over).</string>
+    <string name="how_to_play_section_end_game">Fin de Partie :</string>
+    <string name="how_to_play_point_11">La partie se termine si la grille est complètement remplie et qu\'aucune fusion n\'est possible, ou si vous placez un 6ème carré qui ne provoque pas de fusion.</string>
+    <string name="good_luck_message">Bonne chance et amusez-vous bien !</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- HomeScreen -->
+    <string name="how_to_play_button">कैसे खेलें?</string>
+    <string name="play_button">खेलें</string>    <string name="logo_content_description">नंबरअप लोगो</string>
+
+    <!-- GameScreen -->
+    <string name="back_button_description">वापस</string>
+    <string name="next_tile_label">अगला:</string>
+    <string name="score_label">स्कोर:</string>
+    <string name="next_tile_content_description">रखने के लिए अगली टाइल: %1$d</string>
+    <string name="game_over_title">खेल समाप्त</string>
+    <string name="game_over_text">खेल समाप्त हो गया। अंतिम स्कोर: %1$d</string>
+    <string name="return_to_home_button">होम पर लौटें</string>
+    <string name="play_again_button">फिर से खेलें</string>
+
+    <!-- HowToPlayScreen -->
+    <string name="how_to_play_title">कैसे खेलें?</string>
+    <string name="how_to_play_point_1">खेल का लक्ष्य समान संख्या वाली टाइलों को मिलाकर उच्च मूल्य की टाइलें बनाना और अधिक से अधिक अंक प्राप्त करना है।</string>
+    <string name="how_to_play_point_2">हर बारी में, आपको एक नंबर दिया जाता है। उस नंबर को वहां रखने के लिए किसी कॉलम पर क्लिक करें। टाइल उस कॉलम में पहले उपलब्ध खाली वर्ग तक गिर जाएगी।</string>
+    <string name="how_to_play_point_3">जब एक ही मान की तीन (या अधिक) टाइलें आस-पास (क्षैतिज या लंबवत) होती हैं, तो वे विलीन हो जाती हैं।</string>
+    <string name="how_to_play_point_4">विलय टाइलों में से एक को (आमतौर पर समूह में सबसे नीचे और सबसे बाईं ओर वाली) अगले मान में बदल देता है (जैसे: तीन 1 मिलकर एक 2 बन जाते हैं)। समूह की अन्य टाइलें गायब हो जाती हैं।</string>
+    <string name="how_to_play_point_5">विलय के बाद, खाली हुए वर्गों के ऊपर की टाइलें गुरुत्वाकर्षण के कारण खाली जगह भरने के लिए नीचे गिरती हैं। इससे नई श्रृंखलाबद्ध विलय हो सकते हैं।</string>
+    <string name="how_to_play_point_6">जिन टाइलों को आप मिलाते हैं उनका मूल्य जितना अधिक होता है, और आप एक ही समय में जितनी अधिक टाइलें मिलाते हैं, उतने अधिक अंक आप अर्जित करते हैं।</string>
+    <string name="how_to_play_point_7">जैसे-जैसे आप उच्च संख्याएँ बनाते हैं, वे संख्याएँ अगली रखी जाने वाली संख्याओं के रूप में भी दिखाई देने लगेंगी, लेकिन उच्च मानों के लिए उनकी संभावना कम होगी।</string>
+    <string name="how_to_play_section_sixth_square">छठी टाइल (विशेष चाल):</string>
+    <string name="how_to_play_point_8">यदि कोई कॉलम भरा हुआ है (5 वर्ग भरे हुए हैं), तो आप उस कॉलम के ऊपर छठी टाइल रखने का प्रयास कर सकते हैं।</string>
+    <string name="how_to_play_point_9">यदि यह छठी टाइल कॉलम में (या आस-पास की) टाइलों के साथ तत्काल विलय की अनुमति देती है, तो विलय होता है और खेल जारी रहता है।</string>
+    <string name="how_to_play_point_10">सावधान! यदि इस छठी टाइल को रखने से कोई विलय नहीं होता है, तो खेल समाप्त हो जाता है।</string>
+    <string name="how_to_play_section_end_game">खेल की समाप्ति:</string>
+    <string name="how_to_play_point_11">खेल तब समाप्त होता है जब ग्रिड पूरी तरह से भर जाता है और कोई विलय संभव नहीं होता, या यदि आप छठी टाइल रखते हैं जिससे कोई विलय नहीं होता है।</string>
+    <string name="good_luck_message">शुभकामनाएं और मज़े करें!</string>
+</resources>

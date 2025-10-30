@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- HomeScreen -->
+    <string name="how_to_play_button">遊び方</string>
+    <string name="play_button">プレイ</string>
+    <string name="logo_content_description">NumberUpのロゴ</string>
+
+    <!-- GameScreen -->
+    <string name="back_button_description">戻る</string>
+    <string name="next_tile_label">次へ:</string>
+    <string name="score_label">スコア:</string>
+    <string name="next_tile_content_description">次に配置するタイル: %1$d</string>
+    <string name="game_over_title">ゲームオーバー</string>
+    <string name="game_over_text">ゲームオーバーです。最終スコア: %1$d</string>
+    <string name="return_to_home_button">ホームに戻る</string>
+    <string name="play_again_button">もう一度プレイ</string>
+
+    <!-- HowToPlayScreen -->
+    <string name="how_to_play_title">遊び方</string>
+    <string name="how_to_play_point_1">このゲームの目的は、同じ数字のタイルを合体させて、より大きな数字のタイルを作り、できるだけ多くのスコアを獲得することです。</string>
+    <string name="how_to_play_point_2">各ターンで数字が提示されます。列をクリックしてその数字を配置します。タイルはその列で利用可能な最初の空きマスまで落下します。</string>
+    <string name="how_to_play_point_3">同じ値のタイルが3つ以上、隣接（水平または垂直）すると、それらは合体します。</string>
+    <string name="how_to_play_point_4">合体により、タイルの1つ（通常はグループの中で最も下、最も左のタイル）が次の値に変わります（例：3つの「1」が1つの「2」に合体）。グループ内の他のタイルは消えます。</string>
+    <string name="how_to_play_point_5">合体後、空になったマスの上のタイルが重力で落下し、隙間を埋めます。これにより、新たな連鎖合体が発生することがあります。</string>
+    <string name="how_to_play_point_6">合体させるタイルの値が大きく、一度に多く合体させるほど、より多くのポイントを獲得できます。</string>
+    <string name="how_to_play_point_7">より大きな数字を作ると、それらの数字も次に配置する数字として現れ始めますが、値が大きいほど出現確率は低くなります。</string>
+    <string name="how_to_play_section_sixth_square">6番目のタイル（特別ルール）：</string>
+    <string name="how_to_play_point_8">列が満杯（5マス占有）の場合、その列の上に6番目のタイルを配置しようと試みることができます。</string>
+    <string name="how_to_play_point_9">この6番目のタイルが列内（または隣接する）タイルと即座に合体できる場合、合体が発生し、ゲームは続行します。</string>
+    <string name="how_to_play_point_10">注意！この6番目のタイルを配置しても合体が発生しない場合、ゲームオーバーです。</string>
+    <string name="how_to_play_section_end_game">ゲームの終了：</string>
+    <string name="how_to_play_point_11">グリッドが完全に埋まり、合体が不可能な場合、または合体を起こさない6番目のタイルを配置した場合、ゲームは終了します。</string>
+    <string name="good_luck_message">幸運を祈ります。楽しんでください！</string>
+</resources>

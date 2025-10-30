@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- HomeScreen -->
+    <string name="how_to_play_button">Spielanleitung</string>
+    <string name="play_button">Spielen</string>
+    <string name="logo_content_description">NumberUp Logo</string>
+
+    <!-- GameScreen -->
+    <string name="back_button_description">Zurück</string>
+    <string name="next_tile_label">Nächster:</string>
+    <string name="score_label">Punkte:</string>
+    <string name="next_tile_content_description">Nächster Stein zum Platzieren: %1$d</string>
+    <string name="game_over_title">Spielende</string>
+    <string name="game_over_text">Das Spiel ist vorbei. Endstand: %1$d</string>
+    <string name="return_to_home_button">Zum Start</string>
+    <string name="play_again_button">Nochmal spielen</string>
+
+    <!-- HowToPlayScreen -->
+    <string name="how_to_play_title">Spielanleitung</string>
+    <string name="how_to_play_point_1">Das Ziel des Spiels ist es, identische nummerierte Steine zu verbinden, um Steine mit höherem Wert zu erstellen und so viele Punkte wie möglich zu erzielen.</string>
+    <string name="how_to_play_point_2">In jeder Runde wird dir eine Zahl angeboten. Klicke auf eine Spalte, um diese Zahl dort zu platzieren. Der Stein fällt auf das erste verfügbare leere Feld in dieser Spalte.</string>
+    <string name="how_to_play_point_3">Wenn drei (oder mehr) Steine mit demselben Wert benachbart sind (horizontal oder vertikal), verschmelzen sie.</string>
+    <string name="how_to_play_point_4">Die Verschmelzung verwandelt einen der Steine (normalerweise den untersten und linksten der Gruppe) in den nächsthöheren Wert (z.B. drei \'1\'er verschmelzen zu einer \'2\'). Die anderen Steine der Gruppe verschwinden.</string>
+    <string name="how_to_play_point_5">Nach einer Verschmelzung fallen die Steine über den geleerten Feldern nach unten, um die Lücken zu füllen (Schwerkraft). Dies kann neue Kaskadenverschmelzungen auslösen.</string>
+    <string name="how_to_play_point_6">Je höher der Wert der Steine, die du verschmilzt, und je mehr du gleichzeitig verschmilzt, desto mehr Punkte verdienst du.</string>
+    <string name="how_to_play_point_7">Wenn du höhere Zahlen erstellst, werden diese Zahlen auch als nächste zu platzierende Zahlen erscheinen, jedoch mit einer geringeren Wahrscheinlichkeit für die höchsten Werte.</string>
+    <string name="how_to_play_section_sixth_square">6. Stein (Sonderzug):</string>
+    <string name="how_to_play_point_8">Wenn eine Spalte voll ist (5 Felder besetzt), kannst du versuchen, einen 6. Stein über dieser Spalte zu platzieren.</string>
+    <string name="how_to_play_point_9">Wenn dieser 6. Stein eine sofortige Verschmelzung mit den Steinen in der Spalte (oder benachbarten) ermöglicht, findet die Verschmelzung statt und das Spiel geht weiter.</string>
+    <string name="how_to_play_point_10">Achtung! Wenn das Platzieren dieses 6. Steins KEINE Verschmelzung auslöst, ist das Spiel vorbei.</string>
+    <string name="how_to_play_section_end_game">Spielende:</string>
+    <string name="how_to_play_point_11">Das Spiel endet, wenn das Spielfeld vollständig gefüllt ist und keine Verschmelzungen mehr möglich sind, oder wenn du einen 6. Stein platzierst, der keine Verschmelzung verursacht.</string>
+    <string name="good_luck_message">Viel Glück und viel Spaß!</string>
+</resources>

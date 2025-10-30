@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- HomeScreen -->
+    <string name="how_to_play_button">Come giocare?</string>
+    <string name="play_button">Gioca</string>
+    <string name="logo_content_description">Logo di NumberUp</string>
+
+    <!-- GameScreen -->
+    <string name="back_button_description">Indietro</string>
+    <string name="next_tile_label">Prossimo:</string>
+    <string name="score_label">Punteggio:</string>
+    <string name="next_tile_content_description">Prossima tessera da posizionare: %1$d</string>
+    <string name="game_over_title">Fine Partita</string>
+    <string name="game_over_text">La partita è finita. Punteggio finale: %1$d</string>
+    <string name="return_to_home_button">Torna alla Home</string>
+    <string name="play_again_button">Gioca Ancora</string>
+
+    <!-- HowToPlayScreen -->
+    <string name="how_to_play_title">Come giocare?</string>
+    <string name="how_to_play_point_1">L\'obiettivo del gioco è unire tessere numerate identiche per creare tessere di valore superiore e segnare più punti possibile.</string>
+    <string name="how_to_play_point_2">Ad ogni turno, ti viene offerto un numero. Clicca su una colonna per posizionarlo. La tessera cadrà fino alla prima casella vuota disponibile in quella colonna.</string>
+    <string name="how_to_play_point_3">Quando tre (o più) tessere dello stesso valore sono adiacenti (orizzontalmente o verticalmente), si fondono.</string>
+    <string name="how_to_play_point_4">La fusione trasforma una delle tessere (di solito quella più in basso e a sinistra del gruppo) nel valore successivo (es: tre \'1\' si fondono in un \'2\'). Le altre tessere del gruppo scompaiono.</string>
+    <string name="how_to_play_point_5">Dopo una fusione, le tessere sopra le caselle svuotate cadono per riempire gli spazi (gravità). Questo può innescare nuove fusioni a cascata.</string>
+    <string name="how_to_play_point_6">Più alto è il valore delle tessere che unisci e più ne unisci contemporaneamente, più punti guadagni.</string>
+    <string name="how_to_play_point_7">Man mano che crei numeri più alti, questi inizieranno ad apparire anche come prossimi numeri da posizionare, ma con una probabilità inferiore per i valori più alti.</string>
+    <string name="how_to_play_section_sixth_square">6ª Tessera (Mossa Speciale):</string>
+    <string name="how_to_play_point_8">Se una colonna è piena (5 caselle occupate), puoi tentare di posizionare una 6ª tessera sopra quella colonna.</string>
+    <string name="how_to_play_point_9">Se questa 6ª tessera permette una fusione immediata con le tessere nella colonna (o adiacenti), la fusione avviene e il gioco continua.</string>
+    <string name="how_to_play_point_10">Attenzione! Se il posizionamento di questa 6ª tessera NON innesca NESSUNA fusione, la partita è finita.</string>
+    <string name="how_to_play_section_end_game">Fine della Partita:</string>
+    <string name="how_to_play_point_11">La partita termina se la griglia è completamente piena e non sono possibili altre fusioni, o se posizioni una 6ª tessera che не causa una fusione.</string>
+    <string name="good_luck_message">Buona fortuna e buon divertimento!</string>
+</resources>
